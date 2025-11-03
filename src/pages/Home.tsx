@@ -197,7 +197,7 @@ function Home({ onNavigate }: HomeProps) {
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
             Perché <span className="text-[#ff8600]">sceglierci</span>
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto flex-wrap">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto flex flex-wrap">
             {benefits.map((benefit, index) => (
               <div
                 key={index}
